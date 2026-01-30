@@ -837,6 +837,8 @@ html, body {
 
 .blog__list-block:hover {
   transform: scale(1.05);
+  box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0 12px 10px -6px rgba(154, 156, 165, 0.04), 0 30px 24px -10px rgba(154, 156, 165, 0.05), 0 80px 80px -20px rgba(154, 156, 165, 0.08);
+  border-radius: 4px;
 }
 
 .blog__image-box img {
@@ -1481,6 +1483,43 @@ a.footer__info-title:hover {
   .nums__item-text{
     font-size: 18px;
   }
+
+  /* ------------------------------------------------------------ */
+
+  .brands__heading{
+    font-size: 42px;
+  }
+  .brands__logos-list{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+  .brands__logos-elements{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 30px;
+  }
+  .brands__logos-elements:lang{
+    margin-right: 0;
+  }
+
+  /* --------------------------------------------------- */
+
+    .blog__heading{
+      margin-bottom: 30px;
+    }
+  .blog__heading-title{
+    font-size: 42px;
+  }
+  .blog__filter-btn{
+    font-size: 24px;
+  }
+  .blog__filter-box{
+    margin-bottom: 30px;
+  }
+  .blog__block-title{
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 1000px){
@@ -1651,6 +1690,9 @@ a.footer__info-title:hover {
   .process__roadmap-num-line{
     display: none;
   }
+  .blog__list{
+    gap: 32px 16px;
+  }
 }
 
 @media (max-width: 750px){
@@ -1707,6 +1749,15 @@ a.footer__info-title:hover {
   .nums__item-text{
     font-size: 16px;
   }
+
+  /* ----------------------------------------------------- */
+
+  .blog__block-date{
+    font-size: 16px;
+  }
+  .blog__block-title{
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1733,6 +1784,11 @@ a.footer__info-title:hover {
   }
   .nums__list-item{
     margin: 0;
+  }
+  /* ------------------------------------------------------------ */
+
+  .blog__list{
+    grid-template: repeat(3, auto) / repeat(2, 1fr);
   }
 }
 
@@ -1821,5 +1877,34 @@ a.footer__info-title:hover {
   }
   .touch__content{
     min-width: 100%;
+  }
+
+  /* ---------------------------------------------------------- */
+  .brands__heading{
+    font-size: 38px;
+
+  }
+  .brands__logos-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .brands__logos-elements{
+    margin: 0;
+  }
+  .brands__logos-row{
+    margin: 0;
+  }
+
+  /* ---------------------------------------------------------- */
+
+  .blog__heading-title{
+    font-size: 38px;
+  }
+  .blog__filter-btn{
+    font-size: 20px;
+  }
+  .blog__list{
+    grid-template: repeat(3, auto) / repeat(1, 1fr);
   }
 }
