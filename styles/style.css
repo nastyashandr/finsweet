@@ -1412,6 +1412,17 @@ a.footer__info-title:hover {
     height: 180px;
     margin-right: 9px;
   }
+
+  /* ----------------------------------------------------- */
+
+  .process__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .process__roadmap{
+    margin: 0;
+  }
 }
 
 @media (max-width: 1150px){
@@ -1438,6 +1449,18 @@ a.footer__info-title:hover {
     font-size: 20px;
   }
   .about__learn-txt{
+    font-size: 16px;
+  }
+
+  /* ------------------------------------------------------- */
+
+  .process__heading{
+    font-size: 42px;
+  }
+  .process__roadmap-heading{
+    font-size: 26px;
+  }
+  .process__roadmap-info{
     font-size: 16px;
   }
 }
@@ -1504,11 +1527,11 @@ a.footer__info-title:hover {
   }
 
   .burger.active::before {
-    transform: translateY(8px) rotate(45deg); /* попробуй 8px */
+    transform: translateY(8px) rotate(45deg); 
   }
 
   .burger.active::after {
-    transform: translateY(-8px) rotate(-45deg); /* попробуй 8px */
+    transform: translateY(-8px) rotate(-45deg); 
   }
 
   .header__logo {
@@ -1601,6 +1624,15 @@ a.footer__info-title:hover {
   .about__table{
     margin-bottom: 20px;
   }
+
+  /* ------------------------------------------------------------ */
+
+  .process__roadmap-num{
+    display: none;
+  }
+  .process__roadmap-num-line{
+    display: none;
+  }
 }
 
 @media (max-width: 750px){
@@ -1638,6 +1670,22 @@ a.footer__info-title:hover {
   .about__row-el{
     padding: 0;
     margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .process__content{
+    flex-direction: column;
+    align-items: start;
+  }
+  .process__help{
+    margin: 0 0 40px 0;
+  }
+  .process__roadmap-num{
+    display: block;
+  }
+  .process__roadmap-num-line{
+    display: block;
   }
 }
 
@@ -1685,5 +1733,32 @@ a.footer__info-title:hover {
   }
   .about__words{
     font-size: 18px;
+  }
+
+  /* ---------------------------------------------------- */
+
+  .process__heading{
+    font-size: 38px;
+  }
+  .process__paragraph{
+    margin-bottom: 20px;
+  }
+  .process__roadmap-heading{
+    font-size: 24px;
+  }
+  .process__roadmap-txt{
+    font-size: 14px;
+  }
+  .process__roadmap-number{
+    font-size: 24px;
+    top: -11px;
+    left: -11px;
+  }
+  .process__roadmap-num-img{
+    width: 50px;
+  }
+  .process__roadmap-num-line{
+    margin-left: 23px;
+    height: 60px;
   }
 }
