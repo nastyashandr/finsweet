@@ -26,6 +26,14 @@ $(function () {
     dots: true,
     appendDots: $(".reviews__dots"),
     waitForAnimate: false,
+    responsive: [
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 1,
+        },
+      },,
+    ],
   });
   $(".reviews__prev").on("click", function (e) {
     e.preventDefault();
