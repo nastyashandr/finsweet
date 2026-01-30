@@ -1463,6 +1463,24 @@ a.footer__info-title:hover {
   .process__roadmap-info{
     font-size: 16px;
   }
+
+  /* ---------------------------------------------------- */
+
+  .touch__heading{
+    font-size: 42px;
+  }
+  .touch__content{
+    width: 600px;
+  }
+
+  /* ----------------------------------------------------- */
+
+  .nums__item-title{
+    font-size: 42px;
+  }
+  .nums__item-text{
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 1000px){
@@ -1671,6 +1689,24 @@ a.footer__info-title:hover {
     padding: 0;
     margin: 0;
   }
+
+  /* ----------------------------------------------------- */
+
+  .touch__heading{
+    margin-bottom: 30px;
+  }
+  .touch__content{
+    width: 450px;
+  }
+
+  /* -------------------------------------------------- */
+
+  .nums__item-title{
+    font-size: 36px;
+  }
+  .nums__item-text{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1686,6 +1722,17 @@ a.footer__info-title:hover {
   }
   .process__roadmap-num-line{
     display: block;
+  }
+
+  /* -------------------------------------------------------- */
+
+  .nums__list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .nums__list-item{
+    margin: 0;
   }
 }
 
@@ -1743,6 +1790,9 @@ a.footer__info-title:hover {
   .process__paragraph{
     margin-bottom: 20px;
   }
+  .process__roadmap-content{
+    display: inline-flex;
+  }
   .process__roadmap-heading{
     font-size: 24px;
   }
@@ -1758,7 +1808,18 @@ a.footer__info-title:hover {
     width: 50px;
   }
   .process__roadmap-num-line{
+    display: inline-block;
     margin-left: 23px;
     height: 60px;
+    margin-right: -12px;
+  }
+
+  /* ------------------------------------------------------- */
+
+  .touch__heading{
+    font-size: 38px;
+  }
+  .touch__content{
+    min-width: 100%;
   }
 }
