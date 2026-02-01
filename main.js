@@ -32,7 +32,8 @@ $(function () {
         settings: {
           slidesToShow: 1,
         },
-      },,
+      },
+      ,
     ],
   });
   $(".reviews__prev").on("click", function (e) {
@@ -71,15 +72,18 @@ $(function () {
     }
   });
 
-  setInterval(()=>{
-    if ($(window).scrollTop() > 0 && $('.header__menu').hasClass('header__menu--open') === false) {
+  setInterval(() => {
+    if (
+      $(window).scrollTop() > 0 &&
+      $(".header__menu").hasClass("header__menu--open") === false
+    ) {
       $(".burger").addClass("burger--follow");
     } else {
       $(".burger").removeClass("burger--follow");
     }
-  }, 0)
+  }, 0);
 
-  $(".burger, .overlay").on("click", function (e) {
+  $(".burger, .overlay, .header__menu a").on("click", function (e) {
     e.preventDefault();
     $(".header__menu").toggleClass("header__menu--open");
     $(".overlay").toggleClass("overlay--show");

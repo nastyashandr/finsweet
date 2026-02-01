@@ -30,24 +30,6 @@ html, body {
   text-align: center;
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 50;
-  background: rgba(0, 0, 0, 0.349);
-  visibility: hidden;
-  opacity: 0;
-  transition: all .3s;
-}
-
-.overlay--show {
-  visibility: visible;
-  opacity: 1;
-}
-
 .burger {
   display: none;
 }
@@ -110,12 +92,7 @@ html, body {
   transform: scale(1.05);
 }
 
-/* ---------------------------------------------------------------------------- */
-
-.header {}
-
-.header__top {}
-
+/* -------------------------------------------------------------*/
 
 .header__top-inner {
   display: flex;
@@ -128,14 +105,10 @@ html, body {
   margin-right: 30px;
 }
 
-.logo {}
-
 .header__menu {
   display: flex;
   align-items: center;
 }
-
-.header__nav {}
 
 .header__nav-list {
   display: flex;
@@ -205,10 +178,7 @@ html, body {
   transform: scale(1.1);
 }
 
-/* --------------------------------------------------- */
-.header__body {}
-
-.container {}
+/* -------------------------------------------------------------*/
 
 .header__body-inner {
   display: flex;
@@ -220,7 +190,6 @@ html, body {
 .header__content {
   margin-right: 50px;
 }
-
 
 .header__title {
   font-weight: 800;
@@ -386,7 +355,8 @@ html, body {
   margin-right: 20px;
 }
 
-/* -----------------------------------------------------------------------------*/
+/* -------------------------------------------------------------*/
+
 .about {
   background: #f2f2f2;
 }
@@ -409,8 +379,6 @@ html, body {
   text-align: center;
   margin-bottom: 8px;
 }
-
-.about__title {}
 
 .about__table {
   width: 100%;
@@ -498,10 +466,7 @@ html, body {
   transform: scale(1.05);
 }
 
-/* ------------------------------------------------------------------------- */
-.process {}
-
-.container {}
+/* -------------------------------------------------------------*/
 
 .process__inner {
   display: flex;
@@ -528,8 +493,6 @@ html, body {
   width: 177px;
   height: 64px;
 }
-
-.process__road {}
 
 .process__roadmap {
   margin-right: 234px;
@@ -570,8 +533,6 @@ html, body {
   box-sizing: border-box;
 }
 
-.process__roadmap-num-img {}
-
 .process__roadmap-heading {
   font-weight: 700;
   font-size: 32px;
@@ -600,9 +561,8 @@ html, body {
   opacity: 0.6;
 }
 
-/* --------------------------------------------------------------------------- */
+/* -------------------------------------------------------------*/
 
-/* ----------------------------------------------------------------------- */
 .touch {
   position: relative;
   min-height: 502px;
@@ -677,12 +637,7 @@ html, body {
   background: #1e1b1b;
 }
 
-/* ----------------------------------------------------------- */
-.main__nums {}
-
-.nums {}
-
-.nums__inner {}
+/* -------------------------------------------------------------*/
 
 .nums__list {
   display: flex;
@@ -714,22 +669,12 @@ html, body {
   opacity: 0.7;
 }
 
-/* ---------------------------------------------------- */
-
-.brands {}
-
-.container {}
-
-.brands__inner {}
-
-.brands__content {}
+/* -------------------------------------------------------------*/
 
 .brands__title {
   margin-bottom: 31px;
   white-space: nowrap;
 }
-
-.brands__logos {}
 
 .brands__list {
   display: grid;
@@ -752,16 +697,11 @@ html, body {
   transition: all .3s;
 }
 
-/* ------------------------------------------------------------ */
-.blog {}
-
-.blog__inner {}
+/* -------------------------------------------------------------*/
 
 .blog__title {
   margin-bottom: 47px;
 }
-
-.blog__body {}
 
 .blog__filter-box {
   display: flex;
@@ -794,8 +734,6 @@ html, body {
   grid-template: repeat(2, auto)/repeat(3, 1fr);
   gap: 64px 32px;
 }
-
-.blog__list-item {}
 
 .blog__list-block {
   overflow: hidden;
@@ -838,7 +776,8 @@ html, body {
   color: #232536;
 }
 
-/* ----------------------------------------------------------------- */
+/* -------------------------------------------------------------*/
+
 .reviews {
   background: #f2f2f2;
 }
@@ -892,8 +831,6 @@ html, body {
   overflow: hidden;
   margin-right: 16px;
 }
-
-.reviews__info {}
 
 .reviews__info-name {
   font-size: 24px;
@@ -991,11 +928,7 @@ html, body {
   transform: scale(1.3);
 }
 
-.reviews__prev {}
-
-.reviews__next {}
-
-/* ---------------------------------------------------------------- */
+/* -------------------------------------------------------------*/
 
 .questions {
   background: #e2e6e9;
@@ -1016,8 +949,6 @@ html, body {
   width: 100%;
   max-width: 900px;
 }
-
-.questions__acc-item {}
 
 .questions__acc-link {
   display: block;
@@ -1073,11 +1004,7 @@ html, body {
   transform: rotate(0deg);
 }
 
-/* -------------------------------------------------------------- */
-
-.message {}
-
-.message__inner {}
+/* -------------------------------------------------------------*/
 
 .message__title {
   font-size: 64px;
@@ -1153,10 +1080,6 @@ html, body {
   padding: 16px 40px;
 }
 
-.message__info {}
-
-.message__info-list {}
-
 .message__info-item {
   margin-bottom: 32px;
 }
@@ -1193,8 +1116,7 @@ a.message__info-title:hover {
   transform: scale(1.05);
 }
 
-/* ------------------------------------------------------------ */
-.map {}
+/* -------------------------------------------------------------*/
 
 .map__container {
   margin-bottom: -168px;
@@ -1212,9 +1134,7 @@ a.message__info-title:hover {
   width: 100%;
 }
 
-.map__image-box {}
-
-/* ------------------------------------------------------------ */
+/* -------------------------------------------------------------*/
 
 .footer {
   color: #fff;
@@ -1270,8 +1190,6 @@ a.message__info-title:hover {
   fill: #ff6433;
 }
 
-.footer__info-list {}
-
 .footer__info-item {
   margin-bottom: 32px;
 }
@@ -1325,8 +1243,6 @@ a.footer__info-title:hover {
   fill: #ff6433;
 }
 
-.footer__bottom-nav {}
-
 .footer__nav-list {
   display: flex;
   align-items: center;
@@ -1346,13 +1262,12 @@ a.footer__info-title:hover {
   transform: scale(1.1);
 }
 
-.footer__nav-link {}
-
 .footer__bottom-copy {
   color: #939191;
 }
 
-/* ============================================================= */
+/* -------------------------------------------------------------*/
+/* -------------------------------------------------------------*/
 
 @media (max-width: 1300px) {
   .header__title {
@@ -1360,9 +1275,13 @@ a.footer__info-title:hover {
     max-width: 500px;
   }
 
+  /* -------------------------------------------------------------*/
+
   .process__roadmap {
     margin-right: 100px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .brands__list {
     grid-template-columns: repeat(2, 1fr);
@@ -1370,12 +1289,12 @@ a.footer__info-title:hover {
     gap: 0px;
   }
 
+  /* -------------------------------------------------------------*/
+
   .map__container {
     height: 400px;
   }
 }
-
-/* ------------------------------------------------------------ */
 
 @media (max-width: 1150px) {
   .title {
@@ -1383,12 +1302,14 @@ a.footer__info-title:hover {
     margin-bottom: 40px;
   }
 
+  /* -------------------------------------------------------------*/
+
   .header__title {
     max-width: 300px;
     font-size: 50px;
   }
 
-  /* ---------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .about__subtitle {
     font-size: 22px;
@@ -1398,7 +1319,7 @@ a.footer__info-title:hover {
     font-size: 20px;
   }
 
-  /* ------------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .process__roadmap-heading {
     font-size: 26px;
@@ -1412,13 +1333,13 @@ a.footer__info-title:hover {
     margin-right: 10px;
   }
 
-  /* ---------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .touch__content {
     width: 600px;
   }
 
-  /* ----------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .nums__item-title {
     font-size: 42px;
@@ -1428,7 +1349,8 @@ a.footer__info-title:hover {
     font-size: 18px;
   }
 
-  /* --------------------------------------------------- */
+  /* -------------------------------------------------------------*/
+
   .blog__filter-btn {
     font-size: 26px;
   }
@@ -1437,14 +1359,19 @@ a.footer__info-title:hover {
     font-size: 26px;
   }
 
+  /* -------------------------------------------------------------*/
+
   .reviews__slide {
     padding: 30px;
   }
 
-  /* ---------------------------------------------------- */
+  /* -------------------------------------------------------------*/
+
   .map__container {
     height: 300px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .footer__top-title {
     font-size: 40px;
@@ -1485,11 +1412,27 @@ a.footer__info-title:hover {
   .header__rating {
     top: 100px;
   }
-
-  /* МЕНЯТЬ ФУТЕР */
 }
 
 @media (max-width: 900px) {
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.349);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+  }
+
+  .overlay--show {
+    visibility: visible;
+    opacity: 1;
+  }
+
   .burger {
     position: fixed;
     top: 15px;
@@ -1559,7 +1502,6 @@ a.footer__info-title:hover {
     min-width: 320px;
     transform: translateX(100%);
     transition: all .3s;
-
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -1580,7 +1522,6 @@ a.footer__info-title:hover {
     flex-grow: 1;
     font-size: 20px;
     text-transform: uppercase;
-
   }
 
   .header__nav-list {
@@ -1611,13 +1552,19 @@ a.footer__info-title:hover {
     font-size: 20px;
   }
 
-  /* ------------------------------------------------------------ */
+  /* -------------------------------------------------------------*/
 
   .about__table {
     margin-bottom: 15px;
     grid-template-columns: repeat(2, 300px);
     justify-content: center;
   }
+
+  .about__icon {
+    margin-bottom: 10px;
+  }
+
+  /* -------------------------------------------------------------*/
 
   .process__roadmap-num {
     display: none;
@@ -1627,15 +1574,19 @@ a.footer__info-title:hover {
     display: none;
   }
 
+  /* -------------------------------------------------------------*/
+
   .blog__list {
     gap: 32px 16px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .reviews__title {
     max-width: 650px;
   }
 
-  /* ---------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .questions__acc-head {
     font-size: 22px;
@@ -1648,17 +1599,21 @@ a.footer__info-title:hover {
     top: 59%;
   }
 
+  /* -------------------------------------------------------------*/
+
+
   .message__form-row {
     padding: 20px 20px;
   }
 
-  .about__icon {
-    margin-bottom: 10px;
-  }
+  /* -------------------------------------------------------------*/
 
   .map__container {
     height: 232px;
   }
+
+  /* -------------------------------------------------------------*/
+
   .footer__nav-list {
     display: none;
   }
@@ -1668,6 +1623,8 @@ a.footer__info-title:hover {
   .title {
     margin-bottom: 30px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .header__title {
     max-width: 550px;
@@ -1681,7 +1638,8 @@ a.footer__info-title:hover {
     display: none;
   }
 
-  /* ---------------------------------------------------- */
+  /* -------------------------------------------------------------*/
+
   .about__title {
     max-width: 600px;
   }
@@ -1690,13 +1648,13 @@ a.footer__info-title:hover {
     grid-template-columns: repeat(2, 250px);
   }
 
-  /* ----------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .touch__content {
     width: 450px;
   }
 
-  /* -------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .nums__item-title {
     font-size: 36px;
@@ -1706,7 +1664,7 @@ a.footer__info-title:hover {
     font-size: 16px;
   }
 
-  /* ----------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .blog__block-date {
     font-size: 16px;
@@ -1716,6 +1674,8 @@ a.footer__info-title:hover {
     font-size: 22px;
   }
 
+  /* -------------------------------------------------------------*/
+
   .reviews__slide {
     padding: 50px;
   }
@@ -1723,6 +1683,8 @@ a.footer__info-title:hover {
   .reviews__quote {
     max-width: none;
   }
+
+  /* -------------------------------------------------------------*/
 
   .map__image-box {
     visibility: hidden;
@@ -1740,6 +1702,8 @@ a.footer__info-title:hover {
   .map__inner iframe {
     height: 300px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .footer__top-title {
     font-size: 35px;
@@ -1762,7 +1726,7 @@ a.footer__info-title:hover {
     padding: 25px 135px 25px 25px;
   }
 
-  /* ------------------------------------ */
+  /* -------------------------------------------------------------*/
 
   .message__form {
     margin-right: 0;
@@ -1785,6 +1749,8 @@ a.footer__info-title:hover {
     margin-bottom: 15px;
   }
 
+  /* -------------------------------------------------------------*/
+
   .footer__top-inner {
     flex-direction: column;
   }
@@ -1793,12 +1759,14 @@ a.footer__info-title:hover {
     max-width: none;
     text-align: center;
   }
+
   .footer__top-contacts {
     margin: 0 0 30px 0;
-}
-.footer__top-socials{
-  justify-content: space-around;
-}
+  }
+
+  .footer__top-socials {
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1819,7 +1787,7 @@ a.footer__info-title:hover {
     display: block;
   }
 
-  /* -------------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .nums__list {
     display: grid;
@@ -1831,15 +1799,19 @@ a.footer__info-title:hover {
     margin: 0;
   }
 
-  /* ------------------------------------------------------------ */
+  /* -------------------------------------------------------------*/
 
   .brands__list {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  /* -------------------------------------------------------------*/
+
   .blog__list {
     grid-template: repeat(3, auto) / repeat(2, 1fr);
   }
+
+  /* -------------------------------------------------------------*/
 
   .reviews__dots {
     margin-top: 15px;
@@ -1848,12 +1820,34 @@ a.footer__info-title:hover {
   .reviews__arrows-wrapper {
     display: none;
   }
+
+  /* -------------------------------------------------------------*/
+
+  .main__about,
+  .main__process,
+  .main__brands,
+  .main__blog,
+  .main__reviews,
+  .main__questions,
+  .main__message {
+    padding: 50px 0;
+  }
+
+  .footer__top {
+    padding: 80px 0 50px;
+  }
+
+  .footer__bottom {
+    padding: 30px 0;
+  }
 }
 
 @media (max-width: 450px) {
   .title {
     font-size: 38px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .header__buttons {
     display: flex;
@@ -1878,7 +1872,7 @@ a.footer__info-title:hover {
     display: none;
   }
 
-  /* ------------------------------------------------ */
+  /* -------------------------------------------------------------*/
 
   .about__title {
     max-width: 400px;
@@ -1892,7 +1886,7 @@ a.footer__info-title:hover {
     grid-template-columns: repeat(1, 300px);
   }
 
-  /* ---------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .process__paragraph {
     margin-bottom: 20px;
@@ -1927,7 +1921,7 @@ a.footer__info-title:hover {
     margin-right: -12px;
   }
 
-  /* ---------------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .blog__filter-btn {
     font-size: 20px;
@@ -1936,6 +1930,8 @@ a.footer__info-title:hover {
   .blog__list {
     grid-template: repeat(3, auto) / repeat(1, 1fr);
   }
+
+  /* -------------------------------------------------------------*/
 
   .reviews__title {
     max-width: none;
@@ -1961,14 +1957,16 @@ a.footer__info-title:hover {
     width: 20px;
   }
 
-  /* ----------------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .footer__top-title {
     font-size: 30px;
   }
-  .footer__bottom-logo{
+
+  .footer__bottom-logo {
     display: none;
   }
+
   .footer__bottom-inner {
     justify-content: center;
   }
@@ -1978,6 +1976,8 @@ a.footer__info-title:hover {
   .title {
     font-size: 30px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .header__title {
     font-size: 36px;
@@ -1994,9 +1994,13 @@ a.footer__info-title:hover {
     margin-bottom: 20px;
   }
 
+  /* -------------------------------------------------------------*/
+
   .about__subtitle {
     font-size: 16px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .process__button {
     font-size: 16px;
@@ -2017,6 +2021,8 @@ a.footer__info-title:hover {
   .process__roadmap-num-line {
     display: none;
   }
+
+  /* -------------------------------------------------------------*/
 
   .touch__images {
     display: none;
@@ -2045,6 +2051,8 @@ a.footer__info-title:hover {
     margin-bottom: 30px;
   }
 
+  /* -------------------------------------------------------------*/
+
   .blog__filter-box {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -2055,11 +2063,13 @@ a.footer__info-title:hover {
     margin: 0 0 10px 0;
   }
 
-  /* ---------------------------------------------- */
+  /* -------------------------------------------------------------*/
 
   .questions__acc-head {
     font-size: 18px;
   }
+
+  /* -------------------------------------------------------------*/
 
   .message__form-button {
     font-size: 16px;
